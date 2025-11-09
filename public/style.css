@@ -1,0 +1,74 @@
+/* --- General Page Setup --- */
+body {
+  background: #f4f7fc;                 /* Light background color */
+  font-family: Arial, sans-serif;      /* Clean readable font */
+  display: flex;                       /* Centers the chat box horizontally and vertically */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;                       /* Full viewport height */
+}
+
+/* --- Chat Container --- */
+.chat-container {
+  width: 400px;                        /* Fixed width for the chat box */
+  background: white;                   /* White background for contrast */
+  border-radius: 15px;                 /* Rounded corners */
+  padding: 20px;                       /* Inner spacing */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+/* --- Heading --- */
+h2 {
+  text-align: center;                  /* Center the title text */
+  margin-bottom: 20px;                 /* Spacing below the heading */
+  color: #333;                         /* Dark gray text color */
+}
+
+/* --- Username Input --- */
+#username {
+  width: 100%;                         /* Full width input */
+  padding: 8px;                        /* Inner spacing */
+  margin-bottom: 15px;                 /* Space below input */
+  border-radius: 5px;                  /* Rounded corners */
+  border: 1px solid #ccc;              /* Light border */
+}
+
+/* --- Messages Section --- */
+#messages {
+  height: 300px;                       /* Fixed height for chat area */
+  border: 1px solid #ccc;              /* Border for separation */
+  border-radius: 10px;                 /* Rounded edges */
+  padding: 10px;                       /* Inner spacing */
+  overflow-y: auto;                    /* Adds scroll when messages overflow */
+  margin-bottom: 10px;                 /* Space below messages area */
+  background: #fafafa;                 /* Slightly off-white background */
+}
+
+/* --- Message Input Area (Input + Button) --- */
+.input-area {
+  display: flex;                       /* Align input and button in one row */
+  gap: 10px;                           /* Small gap between input and button */
+}
+
+/* --- Message Input Field --- */
+#messageInput {
+  flex: 1;                             /* Takes remaining horizontal space */
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* --- Send Button --- */
+#sendBtn {
+  padding: 8px 15px;                   /* Size of the button */
+  border: none;                        /* Remove default border */
+  border-radius: 5px;                  /* Rounded corners */
+  background: #007bff;                 /* Blue background */
+  color: white;                        /* White text */
+  cursor: pointer;                     /* Pointer on hover */
+}
+
+/* --- Button Hover Effect --- */
+#sendBtn:hover {
+  background: #0056b3;                 /* Darker blue on hover */
+}

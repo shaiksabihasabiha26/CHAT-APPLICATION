@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Codec Chat App</title>
+
+  <!-- Linking external CSS file for styling -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Main chat container -->
+  <div class="chat-container">
+    <!-- App heading -->
+    <h2>💬 Chat Application</h2>
+
+    <!-- Input field for user to enter their name -->
+    <input id="username" placeholder="Enter your name" />
+
+    <!-- Section where all chat messages will appear -->
+    <div id="messages"></div>
+
+    <!-- Input area for sending new messages -->
+    <div class="input-area">
+      <!-- Message text input -->
+      <input id="messageInput" placeholder="Type a message..." />
+
+      <!-- Send button to emit message to the server -->
+      <button id="sendBtn">Send</button>
+    </div>
+  </div>
+
+  <!-- Importing Socket.IO client library (for real-time communication) -->
+  <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+
+  <!-- Linking external JavaScript file which handles chat logic -->
+  <script src="chat.js"></script>
+</body>
+</html>
