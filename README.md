@@ -47,3 +47,10 @@ Overall, this Real-Time Chat Application project strengthened my practical knowl
 
 The successful completion of this project boosted my confidence as a full-stack web developer and prepared me to work on more advanced, large-scale web applications in the future.
 
+*OUTPUT*:
+https://github.com/user-attachments/assets/aecea936-2221-49ea-beec-283a199d3797
+
+https://github.com/user-attachments/assets/d768c269-a5f7-4bd5-a460-76ba29df5716
+
+
+
